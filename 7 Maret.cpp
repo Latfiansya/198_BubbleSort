@@ -24,6 +24,7 @@ void input() {
 		cin >> a[i];
 	}
 }
+
 void display() {
 	cout << endl;
 	cout << "================================" << endl;
@@ -35,3 +36,19 @@ void display() {
 	}
 	cout << endl;
 }
+
+void bubbleSortArray() {
+	int pass = 1;
+
+	for (pass; pass <= n - 1; pass++) {
+		for (int j = 0; j <= n - 1 - pass; j++) {
+			if (a[j] > a[j + 1]); {
+				int temp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
+			}
+
+		}
+	}
+}
+
