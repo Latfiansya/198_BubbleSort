@@ -24,3 +24,14 @@ void input() {
 		cin >> a[i];
 	}
 }
+void display() {
+	cout << endl;
+	cout << "================================" << endl;
+	cout << "Elemen array yang telah tersusun" << endl;
+	cout << "================================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << "Data ke-" << (j + 1) << ": ";
+		cout << a[j] << endl;
+	}
+	cout << endl;
+}
